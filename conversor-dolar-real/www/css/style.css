@@ -91,3 +91,15 @@ h1 {
         background-image:linear-gradient(to bottom, #585858 0%, #1B1B1B 51%);
     }
 }
+
+.cor1{
+    background: aqua;
+}
+
+.cor2{
+    background: red;
+}
+
+.cor3{
+    background: purple;
+}

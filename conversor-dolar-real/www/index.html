@@ -10,10 +10,36 @@
         <meta name="color-scheme" content="light dark">
         <title>Conversor Financeiro</title>
         <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="">
     </head>
     <body>
+    
+        <div class="row">
+            <div class="col-md-12 col-lg-2 text-primary">
+                <label class="form-label">Valor em Reais:</label>
+            </div>
+            <div class="col">
+                <input name="reais" id="reais" class="form-control">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-lg-2 ">
+                Valor em Dólares:
+            </div>
+            <div class="col">
+                <span id="dolares" class="text-warning text-lg">$$$</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 d-grid gap-2">
+                <button type="button" class="btn btn-lg btn-outline-danger ">Converter</button>
+            </div>
+        </div>
+    </div>
+        
+
+
         <script src="/node_modules/jquery/dist/jquery.min.js"></script>
-        <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>        <script src="js/app.js"></script>
+        <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>        <script src="js/app.js"></script>
     </body>
 </html>
